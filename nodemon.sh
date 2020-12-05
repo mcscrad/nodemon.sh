@@ -28,7 +28,7 @@ NODEMONVER=1.1.1
 # Run this file
 
 ```
-  bash -ic "$(wget -4qO- -o- raw.githubusercontent.com/energicryptocurrency/energi3-provisioning/master/scripts/linux/nodemon.sh)" ; source ~/.bashrc
+  bash -ic "$(wget -4qO- -o- https://raw.githubusercontent.com/mcscrad/nodemon.sh/main/nodemon.sh)" ; source ~/.bashrc
 ```
 '
  
