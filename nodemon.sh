@@ -22,7 +22,7 @@
 #   1.1.1  20200505  ZAlam Update email content
 #
 # Set script version
-NODEMONVER=1.1.1
+NODEMONVER=1.1.2
 
  : '
 # Run this file
@@ -420,7 +420,7 @@ energi3 1 2.28 0.914 101 3600 0.000001 NRG 60
     do
       sudo rm -f /var/multi-masternode-data/nodebot/nodemon.sh
       echo "Downloading Masternode Setup Script."
-      sudo wget -q4o- https://raw.githubusercontent.com/energicryptocurrency/energi3-provisioning/master/scripts/linux/nodemon.sh -O /var/multi-masternode-data/nodebot/nodemon.sh
+      sudo wget -q4o- https://raw.githubusercontent.com/mcscrad/nodemon.sh/main/nodemon.sh -O /var/multi-masternode-data/nodebot/nodemon.sh
       sudo chmod 755 /var/multi-masternode-data/nodebot/nodemon.sh
       COUNTER=$(( COUNTER+1 ))
       if [[ "${COUNTER}" -gt 3 ]]
